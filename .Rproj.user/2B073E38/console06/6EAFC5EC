@@ -1,0 +1,36 @@
+]0;~/myp[?1034hliaoguanyudeMacBook-Pro:myp liaoguanyu$ [KliaoguanyudeMacBook-Pro:myp liaoguanyu$ ls
+DESCRIPTION	NAMESPACE	R		man		myp.Rproj	vignettes
+]0;~/mypliaoguanyudeMacBook-Pro:myp liaoguanyu$ cd [K[K[Kcd [K[K[Kcd myp.Rproj 
+bash: cd: myp.Rproj: Not a directory
+]0;~/mypliaoguanyudeMacBook-Pro:myp liaoguanyu$ ls
+DESCRIPTION	NAMESPACE	R		man		myp.Rproj	vignettes
+]0;~/mypliaoguanyudeMacBook-Pro:myp liaoguanyu$ ls
+DESCRIPTION	NAMESPACE	R		man		myp.Rproj	vignettes
+]0;~/mypliaoguanyudeMacBook-Pro:myp liaoguanyu$ R CMD CHECK
+错误：没有设定程序包
+]0;~/mypliaoguanyudeMacBook-Pro:myp liaoguanyu$ R CMD CHECKls[Kcd myp.Rproj ls[Kssh liao@login.cluster.embl.de[8Pxcode-select --install[12Pgit configxcode-select --installssh liao@login.cluster.embl.dels[Kcd myp.Rproj ls[KR CMD CHECK[Kls
+DESCRIPTION	NAMESPACE	R		man		myp.Rproj	vignettes
+]0;~/mypliaoguanyudeMacBook-Pro:myp liaoguanyu$ lsR CMD CHECK myp
+Warning: ‘myp’ is neither a file nor directory, skipping
+
+]0;~/mypliaoguanyudeMacBook-Pro:myp liaoguanyu$ R CMD CHECK myp.Rproj
+* using log directory ‘/Users/liaoguanyu/myp/myp.Rproj.Rcheck’
+* using R version 3.5.0 (2018-04-23)
+* using platform: x86_64-apple-darwin15.6.0 (64-bit)
+* using session charset: UTF-8
+Error in untar2(tarfile, files, list, exdir, restore_times) : 
+  incomplete block on file
+停止执行
+]0;~/mypliaoguanyudeMacBook-Pro:myp liaoguanyu$ R CMD CHECK myp.Rproj[Kls[KR CMD CHECKls[KR CMD CHECK myp.Rproj[KR CMD INSTALL myp.Rproj
+Error in untar2(tarfile, files, list, exdir, restore_times) : 
+  incomplete block on file
+]0;~/myp[?1034hliaoguanyudeMacBook-Pro:myp liaoguanyu$ R CMD BUILD myp
+ ERROR
+cannot change to directory ‘myp’
+]0;~/mypliaoguanyudeMacBook-Pro:myp liaoguanyu$ R CMD BUILD myp[1P myp[1P myp[1P myp[1P myp[1P mypb mypu mypi mypl mypd myp
+ ERROR
+cannot change to directory ‘myp’
+]0;~/mypliaoguanyudeMacBook-Pro:myp liaoguanyu$ ins[K[K[KR CMD build myp
+ ERROR
+cannot change to directory ‘myp’
+]0;~/myp[?1034hliaoguanyudeMacBook-Pro:myp liaoguanyu$ 

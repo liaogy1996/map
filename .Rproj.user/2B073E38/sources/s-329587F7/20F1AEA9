@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1531486418801.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "20F1AEA9",
+    "lastKnownWriteTime" : 1531486535,
+    "last_content_update" : 1531486535416,
+    "path" : "~/myp/man/iris.Rd",
+    "project_path" : "man/iris.Rd",
+    "properties" : {
+        "cursorPosition" : "1,12",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_doc"
+}
